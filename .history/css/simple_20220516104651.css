@@ -4,17 +4,16 @@ header{
   text-align: center;
   background-color: #3b5998;
   color: white;
-  height: 104px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: none;
 }
 header h1{
   font-weight: bold;
   font-size: 64px;
   font-family: "Comic Sans MS";
-  padding: 16px;
 }
 /* farstarea */
 .farst_area{
@@ -24,22 +23,11 @@ header h1{
   background-size: cover;
 }
 .farst_area h1{
-  padding-top: 8%;
   font-size: 88px;
   text-align: center;
   font-family: "Comic Sans MS";
-  transform: rotate(-3deg);
-}
-.farst_button_area{
-  margin-top: 80%;
-  text-align: center;
-}
-.farst_button_area button{
-  font-size: 80px;
-  border-radius: 25px;
-  font-family: "Comic Sans MS";
-  background-color: rgba(0,0,255, 0.6);
-  color: white;
+  border: double 4px white;
+  margin
 }
 /* main */
 .main{
@@ -151,9 +139,7 @@ textarea, input {
 .marker2 {
   background: linear-gradient(transparent 80%, #1e90ff 50%);
 }
-.marker3 {
-  background: linear-gradient(transparent 90%, #ffce5b 50%);
-}
+
 
 
 

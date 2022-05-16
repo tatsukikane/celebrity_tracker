@@ -10,22 +10,20 @@
 
 <!-- コンテンツ表示画面 -->
 
-<header id ="header">
+<header>
     <h1>CelebrityTracker</h1>
 </header>
 
-<div class="farst_area" id="farst_area">
-    <div class="farst_area_top">
-        <h1><span class="marker3">CelebrityTracker</span></h1>
-    </div>
+<div class="farst_area">
+    <h1><span class="marker3">CelebrityTracker</span></h1>
     <div class="farst_button_area">
-        <button id="farst_btn">START</button>
+        <button id="farst"></button>
     </div>
 </div>
 
-<div class = "main" id = "main">
+<div class = "main">
 <!--/ コンテンツ表示画面 -->
-    <div class="output_area" id = "output_area" style="overflow: auto; height: 880px;">
+    <div class="output_area" id = "output_area" style="overflow: auto; height: 800px;">
 
     </div>
 
@@ -195,14 +193,6 @@ function clk(e){
        remove(ref(db, `chat/${unitkey}`));
        window.location.reload();
 });
-
-
-// トップ画面用
-$("#farst_btn").on("click", function(){
-    $("#farst_area").remove();
-    $("#header").show();
-    $("#main").show();
-})
 
 
   </script>

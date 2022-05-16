@@ -6,6 +6,7 @@ header{
   color: white;
   height: 104px;
   /* display: flex; */
+  
   /* justify-content: center; */
   /* align-items: center; */
   display: none;
@@ -14,7 +15,6 @@ header h1{
   font-weight: bold;
   font-size: 64px;
   font-family: "Comic Sans MS";
-  padding: 16px;
 }
 /* farstarea */
 .farst_area{

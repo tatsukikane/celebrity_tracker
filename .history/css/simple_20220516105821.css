@@ -4,17 +4,16 @@ header{
   text-align: center;
   background-color: #3b5998;
   color: white;
-  height: 104px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: none;
 }
 header h1{
   font-weight: bold;
   font-size: 64px;
   font-family: "Comic Sans MS";
-  padding: 16px;
 }
 /* farstarea */
 .farst_area{
@@ -36,10 +35,7 @@ header h1{
 }
 .farst_button_area button{
   font-size: 80px;
-  border-radius: 25px;
-  font-family: "Comic Sans MS";
-  background-color: rgba(0,0,255, 0.6);
-  color: white;
+  
 }
 /* main */
 .main{
